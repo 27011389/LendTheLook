@@ -1,9 +1,9 @@
-import React from "react";
-import styled from "styled-components";
+import React from 'react';
+import styled from 'styled-components';
 
-import img1 from "../assets/Images/1.webp";
-import img2 from "../assets/Images/2.webp";
-import img3 from "../assets/Images/3.webp";
+import img1 from '../assets/Images/1.webp';
+import img2 from '../assets/Images/2.webp';
+import img3 from '../assets/Images/3.webp';
 
 const Section = styled.section`
   min-height: 100vh;
@@ -110,7 +110,7 @@ const Right = styled.div`
 
 const Title = styled.h1`
   font-size: ${(props) => props.theme.fontBig};
-  font-family: "Kaushan Script";
+  font-family: 'Kaushan Script';
   font-weight: 300;
   /* text-transform: capitalize; */
 
@@ -144,9 +144,9 @@ const About = () => {
         About Us
       </Title>
       <Left data-scroll data-scroll-sticky data-scroll-target="#fixed-target">
-        We&apos;re fashion studio based in california. We create unique designs
-        that will blow your mind. We also design unique jewellary pieces.
-        Fashion is an ART that can not be grasped by everyone.
+        We&apos;re fashion studio based in Invercargill. We create unique
+        designs that will blow your mind. We also design unique jewellary
+        pieces. Fashion is an ART that can not be grasped by everyone.
         <br />
         <br />
         We are very dedicated to making our products. We offer unique and
